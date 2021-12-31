@@ -1,0 +1,30 @@
+
+.frist-section{
+    background-color: teal;
+}
+input:focus{
+ 
+    background-color: tomato;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight:bold;
+}
+h1::before{
+    content: 'Hello';
+}
+h1::after{
+    content: 'GELO';
+}
+div img{
+    width: 300px;
+    height: 320px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.food-item{
+    display: flex;
+}
+.order-section ul li{
+    display: inline;
+}
